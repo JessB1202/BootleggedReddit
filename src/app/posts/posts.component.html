@@ -1,0 +1,15 @@
+<h1>{{ header }}</h1>
+
+<!-- | slice:0:10; let i=index -->
+
+<div *ngFor="let post of postDataObj">
+  <span class="buttons">
+    <button type="button">Like</button>
+    <button type="button">Dislike</button>
+  </span>
+  <img src={{post.data.thumbnail}}>
+  <span class="contents">
+    <p>{{post.data.title}}</p>
+    <a href={{post.data.url}}>View Post</a>
+  </span>
+</div>

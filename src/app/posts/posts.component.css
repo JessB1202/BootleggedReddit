@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+div {
+  border: solid;
+  border-color:darkslategrey;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.contents {
+  margin-left: 20px;
+  font-size: 18px;
+  width: 70%;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.buttons {
+  width: 60px;
+}
